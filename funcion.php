@@ -9,7 +9,7 @@
     <h1>Comprobación de HTTP_REFERER</h1>
 <?php
     if (isset($_SERVER['HTTP_REFERER'])) {
-        echo "<p>El valor de HTTP_REFERER es: " . htmlspecialchars($_SERVER['HTTP_REFERER']) . "</p>";
+        echo "<p>El valor de HTTP_REFERER és: " . htmlspecialchars($_SERVER['HTTP_REFERER']) . "</p>";
     } else {
         echo "<p>No se ha encontrado el valor de HTTP_REFERER.</p>";
     }
